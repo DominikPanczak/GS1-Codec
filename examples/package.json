@@ -1,0 +1,15 @@
+{
+  "name": "gs1-codec-examples",
+  "version": "1.0.0",
+  "description": "Przykłady użycia biblioteki GS1 Codec",
+  "scripts": {
+    "basic": "ts-node basic-usage.ts",
+    "validation": "ts-node validation-examples.ts",
+    "errors": "ts-node error-handling.ts",
+    "all": "ts-node run-all-examples.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
